@@ -54,37 +54,58 @@ layout: default
 
 <div class="content" markdown="1">
 
-# Bio
-
-Étienne de L’Estoile is an economist in the **Macroprudential Policy and Financial Stability Division** at the Banque de France.  
-His work sits at the intersection of **climate risks, macroeconomics, real estate markets, and financial stability**, combining granular data with empirical and geospatial modelling.
-
-He holds a **PhD in Economics from Paris 1 Panthéon-Sorbonne**, where his dissertation examined:
-
-- the construction of commercial real estate price indices for France,  
-- the transmission of physical climate risks through firms’ balance sheets,  
-- the role of land use and land take in shaping sectoral vulnerabilities,  
-- and the implications of environmental shocks for macro-financial stability.
-
-Before joining the Banque de France, he contributed to academic, policy, and editorial projects, and served as **President of the editorial committee of *Regards croisés sur l’économie***.
-
-His research and outreach activities aim to make complex questions—climate-related financial risks, land-use transitions, systemic vulnerabilities—more accessible to policymakers, institutions, and the wider public.
-
 ---
+title: Vita
+layout: default
+---
+
+<div class="content" markdown="1">
+
+# Vita
 
 ## Current Position
 
-**Economist**  
-Macroprudential Policy and Financial Stability Division  
-Banque de France
+**Economist**, Macroprudential Policy and Financial Stability Division  
+**Banque de France** (2022–ongoing)  
+Macro-financial stability, real estate (commercial & residential), Climate risks
 
 ---
 
-## Education
+## Previous Experience
 
-- **PhD in Economics**, Paris 1 Panthéon-Sorbonne  
-- **Masters in Economics**, Paris 1 Panthéon-Sorbonne   
-- **Undergraduate studies**, Economics & History, Paris 1 Panthéon-Sorbonne   
+### Banque de France — Statistical Division (2019–2022)
+Data scientist specializing in geospatial and administrative data  
+
+
+### Praemia (2018–2019)
+Economist, Real Estate Investment Strategy  
+- Development of asset-pricing models for portfolio allocation in commercial real estate :contentReference[oaicite:3]{index=3}
+
+---
+
+## Academic Background
+
+### PhD in Economics (2020–2025)  
+**Paris 1 Panthéon-Sorbonne**  
+*Grounding Commercial Real Estate: Firms, Financial Stability and Environmental Shocks*   
+
+### Master’s Degrees  
+- **M2 International Economic Expertise**, Paris-Dauphine (2018–2019)  
+- **M2 Development Economics**, Paris 1 Panthéon-Sorbonne (2017–2018)  
+
+### Undergraduate Studies  
+- **Bachelor in History & Economics**, Paris 1 Panthéon-Sorbonne  
+- **Classe préparatoire Khâgne BL**, Lycée Pothier
+
+---
+
+## Teaching
+
+Paris 1 Panthéon-Sorbonne (2020–2023)  
+Courses:  
+- Financial and Monetary Economics  
+- SQL for Economists  
+- Climate Risks & Financial Stability :contentReference[oaicite:5]{index=5}
 
 
 </div>
