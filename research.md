@@ -14,15 +14,13 @@ layout: default
 
 ## Publications & Working Papers
 
-### Revise & Resubmit
-
-- **[Titre de ton R&R]**  
-  *Journal of Financial Stability (Revise & Resubmit)*  
-  One–two sentence description of the paper: data, main method, key result.
 
 ### Working Papers
 
-- **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy</a>** – With Mathilde Salin 
+- **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy</a>** – With <a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Mathilde Salin</a>
+
+- - **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Container or Content: from flood hazards on firms’ physical assets to credit risks and pricing</a>** – With <a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Lisa Kerdelhué</a> and Thierry Verdier
+
 
 
 ## Selected Research Projects
