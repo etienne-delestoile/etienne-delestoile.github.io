@@ -28,9 +28,11 @@ layout: default
     color: #222222;
   }
 
-   .header-wrapper {
-    position: relative; /* pour positionner la nav par-dessus l'image */
-  }
+.header-wrapper {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
 
   .cover-photo {
     position: relative;
@@ -52,26 +54,29 @@ layout: default
   display: block;
 }
 
-   .top-bar {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;              /* plus de centering via left:50% */
+  width: 100%;          /* full width */
+  z-index: 30;
 
-    width: 100%;
-    max-width: 1200px;
-    box-sizing: border-box;
+  background: rgba(246,239,230,0.92);
+  border-bottom: 1px solid #e0d4c5;
+  box-sizing: border-box;
+  padding: 0.6rem 0;     /* padding vertical seulement */
+}
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* CONTENEUR INTERNE QUI CENTRE LE CONTENU */
+.top-bar-inner {
+  max-width: 1200px;     /* largeur max du contenu */
+  margin: 0 auto;        /* centre le contenu */
+  padding: 0 1.2rem;     /* padding horizontal */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    padding: 0.6rem 1.2rem;
-    background: rgba(246, 239, 230, 0.92); /* ton beige légèrement opaque */
-    border-bottom: 1px solid #e0d4c5;
-
-    z-index: 30;
-  }
 
   /* Nom */
   .site-name {
@@ -173,13 +178,16 @@ layout: default
   </div>
 
   <div class="top-bar">
-    <div class="site-name">Etienne de L'Estoile</div>
+    <div class="top-bar-inner">
+      <div class="site-name">Etienne de L'Estoile</div>
 
-    <nav class="site-nav">
-      <a href="/">About me</a>
-      <a href="/research">Research</a>
-      <a href="/outreach">Outreach</a>
-    </nav>
+      <nav class="site-nav">
+        <a href="/">About me</a>
+        <a href="/bio">Bio</a>
+        <a href="/research">Research</a>
+        <a href="/outreach">Outreach</a>
+      </nav>
+    </div>
   </div>
 
 </div>
