@@ -3,25 +3,69 @@ title: Research
 layout: default
 ---
 
-<nav>
-  <a href="/">About me</a> ·
-  <a href="/research">Research</a> ·
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background:#f6efe6;          /* même fond que l'index */
+    color: #222222;
+  }
+
+  nav.site-nav {
+    max-width: 900px;
+    margin: 1.5rem auto 2rem auto;
+    padding: 0 1rem 0.5rem 1rem;
+    border-bottom: 1px solid #e0d4c5;
+  }
+
+  nav.site-nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #5d3a23;
+    font-weight: 500;
+  }
+
+  nav.site-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem 3rem 1rem;
+  }
+
+  h1, h2, h3 {
+    color: #5d3a23;
+  }
+</style>
+
+<nav class="site-nav">
+  <a href="/">About me</a>
+  <a href="/research">Research</a>
   <a href="/outreach">Outreach</a>
 </nav>
 
----
+<div class="content" markdown="1">
 
+# Research
 
 ## Publications & Working Papers
 
-
 ### Working Papers
 
-- **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy</a>** – With <a href="https://www.banque-france.fr/fr/mathilde-salin" target="_blank">Mathilde Salin</a>
-- **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Container or Content: from flood hazards on firms’ physical assets to credit risks</a>** – With <a href="https://www.banque-france.fr/fr/lisa-kerdelhue" target="_blank">Lisa Kerdelhué</a> and Thierry Verdier
-Development of a multi-country Digital Twin integrating physical hazard maps, firm-level financial statements, and real-estate exposures to quantify damages and solvency effects for firms and banks. Used to support macroprudential climate-risk analysis.
+- **[Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** – With [Mathilde Salin](https://www.banque-france.fr/fr/mathilde-salin){:target="_blank"}
 
+- **[Container or Content: from flood hazards on firms’ physical assets to credit risks](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier  
 
+  Development of a multi-country Digital Twin integrating physical hazard maps, firm-level financial statements, and real-estate exposures to quantify damages and solvency effects for firms and banks. Used to support macroprudential climate-risk analysis.
+
+---
 
 ## Selected Research Projects
 
@@ -35,8 +79,4 @@ Development of a multi-country Digital Twin integrating physical hazard maps, fi
 
 ### Land-Use & Land-Take Accounts (2008–2021)
 
-Creation of annual land-use and land-take accounts for all French sectors and firms using geospatial datasets (Fichiers Fonciers, SIRENE). The work documents sectoral footprints and helps design “no net land-take” policies.
-
-### Biodiversity-Related Transition Risk Assessment
-
-Quantification of sectoral exposure to biodiversity-related constraints via land-use dependencies, linking ecological pressures to sectoral vulnerabilities and transition risks.
+Creation of annual land-use and land-take accounts for all French sectors and firms using
