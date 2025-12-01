@@ -31,7 +31,6 @@ layout: default
     position: relative;
     z-index: 1;                    /* cover derrière */
     width: 100vw;
-    height: 60vh;
     overflow: hidden;
     background: #2b1a12;           /* marron foncé en fond derrière l’image */
     left: 50%;
@@ -100,6 +99,7 @@ layout: default
   nav.site-nav {
     max-width: 900px;
     margin: 1.5rem auto 2rem auto;
+      margin-bottom: 0.5rem; /* réduit au minimum */
     padding: 0 1rem 0.5rem 1rem;
     border-bottom: 1px solid #e0d4c5; /* petite ligne marron clair sous le menu */
   }
