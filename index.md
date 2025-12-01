@@ -10,12 +10,18 @@ layout: default
     line-height: 1.6;
   }
 
-  .cover-photo {
-    width: 100%;
-    height: 66vh;        /* 2/3 de la hauteur de l'écran */
-    overflow: hidden;
-    background: #000;
-  }
+.cover-photo {
+  width: 100vw;                 /* largeur de la fenêtre */
+  height: 66vh;                 /* 2/3 de la hauteur de l'écran */
+  overflow: hidden;
+  background: #000;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;           /* permet de sortir du wrapper centré */
+  margin-right: -50vw;
+}
+
 
   .cover-photo img {
     width: 100%;
@@ -132,7 +138,7 @@ layout: default
   <a href="/outreach">Outreach</a>
 </nav>
 
-<div class="content">
+<div class="content" markdown="1">
 
 # About Me
 
