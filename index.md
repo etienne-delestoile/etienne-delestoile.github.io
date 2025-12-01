@@ -44,8 +44,8 @@ layout: default
 ---
 ## Author Webpages
 
-- [Banque de France](https://www.banque-france.fr/fr/etienne-de-lestoile)
-- [Cairn]([https://www.banque-france.fr/fr/etienne-de-lestoile](https://shs.cairn.info/publications-de-etienne-de-lestoile--699197?lang=fr))
+-  <a href="https://www.banque-france.fr/fr/etienne-de-lestoile">Banque de France</a>
+-  <a href="https://shs.cairn.info/publications-de-etienne-de-lestoile--699197?lang=fr">Cairn</a>
 
 
 
