@@ -59,6 +59,10 @@ layout: default
 
 # Vita
 
+## Languages
+
+French (native), English (fluent), German (fluent), Portuguese (fluent), Portuguese (fluent), Italian (fluent)
+
 ## Current Position
 
 **Economist**, Macroprudential Policy and Financial Stability Division  
@@ -75,7 +79,7 @@ Data scientist specializing in geospatial and administrative data
 
 ### Praemia (2018–2019)
 Economist, Real Estate Investment Strategy  
-- Development of asset-pricing models for portfolio allocation in commercial real estate :contentReference[oaicite:3]{index=3}
+- Development of asset-pricing models for portfolio allocation in commercial real estate
 
 ---
 
@@ -102,6 +106,7 @@ Courses:
 - Financial and Monetary Economics  
 - SQL for Economists  
 - Climate Risks & Financial Stability :contentReference[oaicite:5]{index=5}
+
 
 
 </div>
