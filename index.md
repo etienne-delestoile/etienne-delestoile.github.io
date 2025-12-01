@@ -43,7 +43,7 @@ layout: default
   .cover-photo img {
     width: 100%;
     height: 100%;
-    object-fit: contain;             /* remplit le bloc */
+    object-fit: cover;             /* remplit le bloc */
     object-position: center;
     display: block;
   }
