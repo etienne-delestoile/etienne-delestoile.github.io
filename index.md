@@ -42,25 +42,11 @@ layout: default
 - Spatial econometrics & geospatial modelling  
 
 ---
-## Outreach & Dissemination
+## Author Webpages
 
-I am committed to making research accessible:
+[Banque de France](https://www.banque-france.fr/fr/etienne-de-lestoile)
+[Cairn]([https://www.banque-france.fr/fr/etienne-de-lestoile](https://shs.cairn.info/publications-de-etienne-de-lestoile--699197?lang=fr))
 
-- Blog and outreach articles on climate economics and financial stability  
-- Participation in roundtables and public discussions  
-- Explanatory videos and educational content  
-- Former president of *Regards Croisés sur l'Économie*, a journal dedicated to research dissemination
-
-
----
-## Outreach & Dissemination
-
-I am committed to making research accessible:
-
-- Blog and outreach articles on climate economics and financial stability  
-- Participation in roundtables and public discussions  
-- Explanatory videos and educational content  
-- Former president of *Regards Croisés sur l'Économie*, a journal dedicated to research dissemination
 
 
 
