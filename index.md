@@ -19,6 +19,7 @@ layout: default
   background: transparent !important;
 }
 
+  
 
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -27,8 +28,14 @@ layout: default
     color: #222222;
   }
 
+   .header-wrapper {
+    position: relative; /* pour positionner la nav par-dessus l'image */
+  }
+
   .cover-photo {
     position: relative;
+    margin: 0;
+    padding: 0;
     z-index: 1;                    /* cover derrière */
     width: 100vw;
     overflow: hidden;
@@ -96,12 +103,19 @@ layout: default
     color: #5d3a23;                /* accent sur le titre de poste */
   }
 
-  nav.site-nav {
+nav.site-nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    width: 100%;
     max-width: 900px;
-    margin: 1.5rem auto 2rem auto;
-      margin-bottom: 0.5rem; /* réduit au minimum */
-    padding: 0 1rem 0.5rem 1rem;
-    border-bottom: 1px solid #e0d4c5; /* petite ligne marron clair sous le menu */
+    box-sizing: border-box;
+
+    padding: 0.4rem 1rem 0.6rem 1rem;
+    background: rgba(246, 239, 230, 0.95); /* beige légèrement opaque */
+    border-bottom: 1px solid #e0d4c5;
   }
 
   nav.site-nav a {
