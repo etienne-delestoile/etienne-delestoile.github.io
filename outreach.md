@@ -13,7 +13,7 @@ layout: default
 
 # Outreach & Dissemination
 
-- Blog articles on climate economics and financial stability  
+- Blog articles
+- Media intervention   
 - Explanatory videos  
-- Formet president of *Regards Croisés sur l'Économie* 
-- Media intervention
+- Former president of *Regards Croisés sur l'Économie* 
