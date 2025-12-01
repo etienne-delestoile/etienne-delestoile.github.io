@@ -31,8 +31,6 @@ I develop empirical tools to quantify the exposure of firms, banks, and economic
 - Macroprudential policy & financial stability  
 - Commercial real estate & land-use economics  
 - Spatial econometrics & geospatial modelling  
-- Big data methods for applied macroeconomics  
-
 
 ---
 ## Outreach & Dissemination
@@ -45,11 +43,6 @@ I am committed to making research accessible:
 - Former president of *Regards Croisés sur l'Économie*, a journal dedicated to research dissemination
 
 
----
 
-
-## CV
-
-A full CV is available upon request.  
 
 [Back to top](#etienne-de-lestoile)
