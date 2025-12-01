@@ -10,29 +10,19 @@ layout: default
     line-height: 1.6;
   }
 
-.cover-photo {
-  width: 100%;
-  height: 66vh;
-  overflow: hidden;
-  background: #000;
-}
-
-.cover-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;   /* <-- dézoom */
-  object-position: center;
-  display: block;
-}
-  .header-description {
-    max-width: 900px;
-    margin: 1.2rem auto 1.5rem auto;
-    padding: 0 1rem;
-    font-size: 1rem;
+  .cover-photo {
+    width: 100%;
+    height: 66vh;        /* 2/3 de la hauteur de l'écran */
+    overflow: hidden;
+    background: #000;
   }
 
-  .header-description strong {
-    font-size: 1.05rem;
+  .cover-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* remplit tout le bloc, sans bandes noires */
+    object-position: center;
+    display: block;
   }
 
   .profile-container {
@@ -41,10 +31,17 @@ layout: default
     padding: 0 1rem;
   }
 
+  .profile-wrapper {
+    display: flex;
+    align-items: flex-end;      /* bas des blocs alignés */
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
   .profile-photo-block {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start; /* photo + nom alignés à gauche */
+    align-items: flex-start;
     gap: 0.4rem;
   }
 
@@ -58,8 +55,22 @@ layout: default
   }
 
   .profile-name {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
+  }
+
+  .profile-text {
+    flex: 1;
+    min-width: 220px;
+    font-size: 0.98rem;
+  }
+
+  .profile-text p {
+    margin: 0.2rem 0 0 0;
+  }
+
+  .profile-text strong {
+    font-size: 1.05rem;
   }
 
   nav.site-nav {
@@ -82,24 +93,36 @@ layout: default
     margin: 0 auto;
     padding: 0 1rem 3rem 1rem;
   }
+
+  @media (max-width: 600px) {
+    .profile-container {
+      margin-top: -40px; /* chevauchement un peu moins fort sur mobile */
+    }
+
+    .profile-photo-block img {
+      width: 140px;
+      height: 140px;
+    }
+  }
 </style>
 
 <div class="cover-photo">
   <img src="ciudad_garcia.jpg" alt="Cover image">
 </div>
 
-<div class="header-description">
-  <p>
-    <strong>Climate & Macroeconomics Economist</strong><br>
-    Macroprudential Policy and Financial Stability Division, Banque de France<br>
-    PhD in Economics, Paris 1 Panthéon-Sorbonne
-  </p>
-</div>
-
 <div class="profile-container">
-  <div class="profile-photo-block">
-    <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
-    <div class="profile-name">Etienne de L'Estoile</div>
+  <div class="profile-wrapper">
+    <div class="profile-photo-block">
+      <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
+    </div>
+    <div class="profile-text">
+      <div class="profile-name">Etienne de L'Estoile</div>
+      <p>
+        <strong>Climate & Macroeconomics Economist</strong><br>
+        Macroprudential Policy and Financial Stability Division, Banque de France<br>
+        PhD in Economics, Paris 1 Panthéon-Sorbonne
+      </p>
+    </div>
   </div>
 </div>
 
