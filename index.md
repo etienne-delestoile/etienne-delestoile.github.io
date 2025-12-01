@@ -10,6 +10,16 @@ layout: default
     padding: 0;
   }
 
+.page-content,
+.wrapper,
+.site,
+.site-main,
+.post-content,
+.home {
+  background: transparent !important;
+}
+
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
@@ -31,8 +41,8 @@ layout: default
   }
 
   .cover-photo img {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
     object-fit: cover;             /* remplit le bloc */
     object-position: center;
     display: block;
@@ -141,7 +151,7 @@ layout: default
     <div class="profile-text">
       <div class="profile-name">Etienne de L'Estoile</div>
       <p>
-        <strong>Climate & Macroeconomics Economist</strong><br>
+        <strong>Climate & Macrofinance Economist</strong><br>
         Macroprudential Policy and Financial Stability Division, Banque de France<br>
         PhD in Economics, Paris 1 Panthéon-Sorbonne
       </p>
@@ -171,8 +181,7 @@ I develop empirical tools to quantify the exposure of firms, banks, and economic
 - Climate–macro linkages and environmental shocks  
 - Natural disaster impacts & physical risk modelling  
 - Macroprudential policy & financial stability  
-- Commercial real estate & land-use economics  
-- Spatial econometrics & geospatial modelling  
+- Real estate & land-use economics  
 
 ---
 
