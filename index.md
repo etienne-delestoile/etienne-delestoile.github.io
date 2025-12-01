@@ -12,42 +12,48 @@ layout: default
 
   .cover-photo img {
     width: 100%;
-    height: 260px;
-    object-fit: cover;
+    height: 380px;           /* cover plus haute */
+    object-fit: cover;       /* on découpe dans l'image */
+    object-position: center; /* tu peux mettre 'top' ou '50% 30%' si tu veux plus haut */
     display: block;
+  }
+
+  .header-description {
+    max-width: 900px;
+    margin: 1.2rem auto 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+
+  .header-description strong {
+    font-size: 1.05rem;
   }
 
   .profile-container {
     max-width: 900px;
-    margin: -80px auto 2rem auto; 
+    margin: -70px auto 1.5rem auto; /* fait remonter la photo sur la cover */
     padding: 0 1rem;
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
   }
 
-  .profile-photo img {
+  .profile-photo-block {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start; /* photo + nom alignés à gauche */
+    gap: 0.4rem;
+  }
+
+  .profile-photo-block img {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    border-radius: 6px; 
-    border: 4px solid white; 
+    border-radius: 6px;
+    border: 4px solid white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   }
 
-  .header-text {
-    flex: 1;
-  }
-
-  .header-name {
-    font-size: 2rem;
+  .profile-name {
+    font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 0.25rem;
-  }
-
-  .header-title {
-    font-size: 1.1rem;
-    margin: 0;
   }
 
   nav.site-nav {
@@ -73,19 +79,21 @@ layout: default
 </style>
 
 <div class="cover-photo">
-  <img src="ciudad_garcia.jpg" alt="Cover image">
+  <img src="torres_garcia_ciudad.jpg" alt="Cover image">
+</div>
+
+<div class="header-description">
+  <p>
+    <strong>Climate & Macroeconomics Economist</strong><br>
+    Macroprudential Policy and Financial Stability Division, Banque de France<br>
+    PhD in Economics, Paris 1 Panthéon-Sorbonne
+  </p>
 </div>
 
 <div class="profile-container">
-  <div class="profile-photo">
+  <div class="profile-photo-block">
     <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
-  </div>
-
-  <div class="header-text">
-    <div class="header-name">Etienne de L'Estoile</div>
-    <div class="header-title">Climate & Macroeconomics Economist</div>
-    <p>Macroprudential Policy and Financial Stability Division, Banque de France<br>
-    PhD in Economics, Paris 1 Panthéon-Sorbonne</p>
+    <div class="profile-name">Etienne de L'Estoile</div>
   </div>
 </div>
 
