@@ -40,15 +40,11 @@ layout: default
     margin-right: -50vw;
   }
 
-  .cover-photo img {
-  height: 100%;                 /* l'image s'ajuste en hauteur */
-  width: auto;                  /* largeur en proportion → dézoom */
-  object-fit: contain;          /* on voit tout le tableau, pas recadré */
-  object-position: center;
+.cover-photo img {
+  width: 100%;
+  height: auto;            /* on garde les proportions du tableau */
   display: block;
-  margin: 0 auto;               /* centré horizontalement */
 }
-
   .profile-container {
     position: relative;
     z-index: 10;                   /* profil au-dessus de la cover */
