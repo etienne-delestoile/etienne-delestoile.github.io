@@ -1,18 +1,18 @@
 ---
-title: "Publications & Working Papers"
+title: Research
 layout: default
 ---
 
 <nav>
   <a href="/">About me</a> ·
-  <a href="/publications">Publications</a> ·
+  <a href="/publications">Research</a> ·
   <a href="/outreach">Outreach</a>
 </nav>
 
 ---
 
 
-## Working Papers & Publications
+## Publications & Working Papers
 
 ### Revise & Resubmit
 
@@ -22,12 +22,8 @@ layout: default
 
 ### Working Papers
 
-- **[Titre WP 1]** – Banque de France Working Paper  
-  One–two sentence description.
-- **[Titre WP 2]** – Banque de France Working Paper  
-  One–two sentence description.
-- **[Autres WPs]**  
-  Add whatever you want here.
+- **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy</a>** – With Mathilde Salin 
+
 
 ## Selected Research Projects
 
@@ -46,17 +42,3 @@ Creation of annual land-use and land-take accounts for all French sectors and fi
 ### Biodiversity-Related Transition Risk Assessment
 
 Quantification of sectoral exposure to biodiversity-related constraints via land-use dependencies, linking ecological pressures to sectoral vulnerabilities and transition risks.
-# Publications & Working Papers
-
-## Revise & Resubmit
-
-- **Titre de ton R&R** – *Journal of Financial Stability* (Revise & Resubmit)  
-  Brève description (2–3 lignes).
-
-## Working Papers
-
-- **Titre WP 1** – Banque de France Working Paper  
-  Description courte.
-
-- **Titre WP 2** – Banque de France Working Paper  
-  Description courte.
