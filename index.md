@@ -41,12 +41,13 @@ layout: default
   }
 
   .cover-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;             /* remplit le bloc */
-    object-position: center;
-    display: block;
-  }
+  height: 100%;                 /* l'image s'ajuste en hauteur */
+  width: auto;                  /* largeur en proportion → dézoom */
+  object-fit: contain;          /* on voit tout le tableau, pas recadré */
+  object-position: center;
+  display: block;
+  margin: 0 auto;               /* centré horizontalement */
+}
 
   .profile-container {
     position: relative;
