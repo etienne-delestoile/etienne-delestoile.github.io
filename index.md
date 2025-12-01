@@ -5,42 +5,42 @@ layout: default
 ---
 
 <style>
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
+    background: #f5eee6;          /* marron très clair / beige rosé */
+    color: #222;
   }
 
-  .profile-container {
-  position: relative;
-  z-index: 10;              /* profil au-dessus de la cover */
-  max-width: 900px;
-  margin: -70px auto 1.5rem auto;
-  padding: 0 1rem;
-}
-
-  
-.cover-photo {
-  position: relative;
-  z-index: 1;               /* cover derrière */
-  width: 100vw;
-  height: 66vh;
-  overflow: hidden;
-  background: #000;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
+  .cover-photo {
+    position: relative;
+    z-index: 1;                    /* cover derrière */
+    width: 100vw;
+    height: 66vh;
+    overflow: hidden;
+    background: #2b1a12;           /* marron foncé en fond derrière l’image */
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
 
   .cover-photo img {
     width: 100%;
     height: 100%;
-    object-fit: cover;   /* remplit tout le bloc, sans bandes noires */
+    object-fit: cover;             /* remplit le bloc */
     object-position: center;
     display: block;
   }
 
   .profile-container {
+    position: relative;
+    z-index: 10;                   /* profil au-dessus de la cover */
     max-width: 900px;
     margin: -70px auto 1.5rem auto; /* fait remonter la photo sur la cover */
     padding: 0 1rem;
@@ -48,7 +48,7 @@ layout: default
 
   .profile-wrapper {
     display: flex;
-    align-items: flex-end;      /* bas des blocs alignés */
+    align-items: flex-end;
     gap: 1.5rem;
     flex-wrap: wrap;
   }
@@ -65,13 +65,14 @@ layout: default
     height: 180px;
     object-fit: cover;
     border-radius: 6px;
-    border: 4px solid white;
+    border: 4px solid #f5eee6;     /* même ton que le fond */
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   }
 
   .profile-name {
     font-size: 1.6rem;
     font-weight: 600;
+    color: #4b2e1a;                /* marron un peu plus soutenu pour le nom */
   }
 
   .profile-text {
@@ -86,17 +87,21 @@ layout: default
 
   .profile-text strong {
     font-size: 1.05rem;
+    color: #5d3a23;                /* accent sur le titre de poste */
   }
 
   nav.site-nav {
     max-width: 900px;
     margin: 1.5rem auto 2rem auto;
-    padding: 0 1rem;
+    padding: 0 1rem 0.5rem 1rem;
+    border-bottom: 1px solid #e0d4c5; /* petite ligne marron clair sous le menu */
   }
 
   nav.site-nav a {
     margin-right: 1rem;
     text-decoration: none;
+    color: #4b2e1a;                /* liens marron foncé */
+    font-weight: 500;
   }
 
   nav.site-nav a:hover {
@@ -107,11 +112,14 @@ layout: default
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1rem 3rem 1rem;
+    background: #fff;              /* bloc central blanc lisible sur fond beige */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    border-radius: 4px;
   }
 
   @media (max-width: 600px) {
     .profile-container {
-      margin-top: -40px; /* chevauchement un peu moins fort sur mobile */
+      margin-top: -40px;
     }
 
     .profile-photo-block img {
