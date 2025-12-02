@@ -28,9 +28,18 @@ layout: default
   }
 
     /* ⛔ cache le header du thème (la barre avec ton nom en bleu) */
-.site-header {
-    display: none !important;
-  }
+/* Désactive complètement le header du thème GitHub/Jekyll sur cette page */
+header.site-header,
+.site-header,
+.site-header *,
+.site-title,
+.site-title:link,
+.site-title:visited {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 
 
   body {
