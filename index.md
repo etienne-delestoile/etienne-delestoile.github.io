@@ -169,7 +169,7 @@ layout: default
   .content {
     flex: 1;
     max-width: none;
-    margin: 50px 0 0 0;      /* commence plus bas que la photo */
+    margin: 30px 0 0 0;      /* commence plus bas que la photo */
     padding: 0 0 3rem 0;
     background: transparent;
     box-shadow: none;
