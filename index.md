@@ -118,7 +118,9 @@ layout: default
   .sidebar {
     width: 230px;
     flex-shrink: 0;
-    margin-top: -60px;          /* chevauchement de la cover */
+    margin-top: -60px;  
+     position: relative;
+    z-index: 20;  /* chevauchement de la cover */
   }
 
   .sidebar-photo {
@@ -167,7 +169,7 @@ layout: default
   .content {
     flex: 1;
     max-width: none;
-    margin: 60px 0 0 0;      /* commence plus bas que la photo */
+    margin: 50px 0 0 0;      /* commence plus bas que la photo */
     padding: 0 0 3rem 0;
     background: transparent;
     box-shadow: none;
