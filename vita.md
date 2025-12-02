@@ -28,7 +28,7 @@ layout: default
   }
 
     /* ⛔ cache le header du thème (la barre avec ton nom en bleu) */
-  .site-header {
+.site-header {
     display: none !important;
   }
 
