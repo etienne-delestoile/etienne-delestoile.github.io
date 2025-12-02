@@ -56,7 +56,7 @@ layout: default
 # Research
 
 ## Publications 
-- **[Digital twins for bridging climate data gaps: from flood hazards to firms’ physical assets to banking risks](https://www.bis.org/ifc/publ/ifcb63_10.pdf)){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier
+- **[Digital twins for bridging climate data gaps: from flood hazards to firms’ physical assets to banking risks](https://www.bis.org/ifc/publ/ifcb63_10.pdf){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier
 
 ## Working Papers
 
