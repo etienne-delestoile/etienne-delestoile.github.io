@@ -73,10 +73,4 @@ layout: default
 
 Construction of the first public transaction-based commercial real estate indices for France using millions of DV3F property transactions and hedonic modelling. The project sheds light on price dynamics, non-prime segments, and financial stability implications.
 
-### International Digital Twin for Climate Shocks
 
-Development of a multi-country Digital Twin integrating physical hazard maps, firm-level financial statements, and real-estate exposures to quantify damages and solvency effects for firms and banks. Used to support macroprudential climate-risk analysis.
-
-### Land-Use & Land-Take Accounts (2008–2021)
-
-Creation of annual land-use and land-take accounts for all French sectors and firms using
