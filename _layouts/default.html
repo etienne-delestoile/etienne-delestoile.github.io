@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+
+    <!-- Jekyll head -->
+    {{ site.head }}
+
+    <!-- ton CSS global si tu veux -->
+    <style>
+      body { margin:0; padding:0; }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- ❌ AUCUN HEADER ICI
+         (on supprime le header du thème Minima) -->
+
+    <main class="page-content">
+      {{ content }}
+    </main>
+
+    <!-- ❌ AUCUN FOOTER NON PLUS, OPTIONNEL -->
+
+  </body>
+</html>
