@@ -27,6 +27,12 @@ layout: default
     max-width: none !important;
   }
 
+    /* ⛔ cache le header du thème (la barre avec ton nom en bleu) */
+  .site-header {
+    display: none !important;
+  }
+
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
