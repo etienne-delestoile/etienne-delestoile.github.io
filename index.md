@@ -6,86 +6,82 @@ layout: default
 
 <style>
   body > *:first-child {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-  
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
   html, body {
     margin: 0;
     padding: 0;
   }
 
-.page-content,
-.wrapper,
-.site,
-.site-main,
-.post-content,
-.home {
-  background: transparent !important;
-}
-
-  
+  .page-content,
+  .wrapper,
+  .site,
+  .site-main,
+  .post-content,
+  .home {
+    background: transparent !important;
+  }
 
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background:#f6efe6;          /* marron très clair / beige rosé */
+    background:#f6efe6;
     color: #222222;
   }
 
-.header-wrapper {
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
+  .header-wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
 
   .cover-photo {
     position: relative;
     margin: 0;
     padding: 0;
-    z-index: 1;                    /* cover derrière */
+    z-index: 1;
     width: 100vw;
     overflow: hidden;
-    background: #2b1a12;           /* marron foncé en fond derrière l’image */
+    background: #2b1a12;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
   }
 
-.cover-photo img {
-  width: 100%;
-  height: auto;            /* on garde les proportions du tableau */
-  display: block;
-}
-.top-bar {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  right: 50%;
-  width: 100vw;              /* prend toute la largeur de la fenêtre */
-  margin-left: -50vw;        /* sort du wrapper à gauche */
-  margin-right: -50vw;       /* sort du wrapper à droite */
-  z-index: 30;
+  .cover-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
-  background: rgba(246,239,230,0.92);
-  border-bottom: 1px solid #e0d4c5;
-  box-sizing: border-box;
-  padding: 0.6rem 0;         /* vertical seulement */
-}
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    width: 100vw;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 30;
 
-.top-bar-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1.2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+    background: rgba(246,239,230,0.92);
+    border-bottom: 1px solid #e0d4c5;
+    box-sizing: border-box;
+    padding: 0.6rem 0;
+  }
 
+  .top-bar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-
-  /* Nom */
   .site-name {
     font-size: 1.2rem;
     font-weight: 600;
@@ -93,7 +89,6 @@ layout: default
     margin: 0;
   }
 
-  /* Navigation (liens) */
   .site-nav a {
     margin-left: 1rem;
     text-decoration: none;
@@ -104,82 +99,107 @@ layout: default
   .site-nav a:hover {
     text-decoration: underline;
   }
-  .profile-container {
-    position: relative;
-    z-index: 10;                   /* profil au-dessus de la cover */
+
+  /* ====== LAYOUT DEUX COLONNES ====== */
+
+  .main-layout {
     max-width: 900px;
-    margin: -70px auto 1.5rem auto; /* fait remonter la photo sur la cover */
+    margin: -60px auto 3rem auto;   /* remonte légèrement la zone sur la cover */
     padding: 0 1rem;
-  }
-
-  .profile-wrapper {
     display: flex;
-    align-items: flex-end;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-
-  .profile-photo-block {
-    display: flex;
-    flex-direction: column;
+    gap: 2rem;
     align-items: flex-start;
-    gap: 0.4rem;
   }
 
-  .profile-photo-block img {
+  .sidebar {
+    width: 230px;
+    flex-shrink: 0;
+  }
+
+  .sidebar-photo {
     width: 180px;
     height: 180px;
     object-fit: cover;
     border-radius: 6px;
-    border: 4px solid #f5eee6;     /* même ton que le fond */
+    border: 4px solid #f6efe6;
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    margin-bottom: 0.75rem;
   }
 
-  .profile-name {
-    font-size: 1.6rem;
+  .sidebar-name {
+    font-size: 1.25rem;
     font-weight: 600;
-    color:#5d3a23;                /* marron un peu plus soutenu pour le nom */
+    color:#5d3a23;
+    margin-bottom: 0.4rem;
   }
 
-  .profile-text {
+  .sidebar-title {
+    font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .sidebar-title strong {
+    font-size: 1rem;
+  }
+
+  .sidebar-links {
+    font-size: 0.9rem;
+  }
+
+  .sidebar-links a {
+    display: block;
+    text-decoration: none;
+    color: #5d3a23;
+    margin-bottom: 0.3rem;
+  }
+
+  .sidebar-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* Colonne de droite : About Me */
+  .content {
     flex: 1;
-    min-width: 220px;
-    font-size: 0.98rem;
+    max-width: none;
+    margin: 40px 0 0 0;        /* commence au dernier quart environ de la photo */
+    padding: 0 0 3rem 0;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
   }
 
-  .profile-text p {
-    margin: 0.2rem 0 0 0;
+  .content h1,
+  .content h2,
+  .content h3 {
+    color:#5d3a23;
   }
 
-  .profile-text strong {
-    font-size: 1.05rem;
-    color: #5d3a23;                /* accent sur le titre de poste */
-  }
-
-
-
-.content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1rem 3rem 1rem;
-  background: transparent;       /* laisse voir le fond du body */
-  box-shadow: none;
-  border-radius: 0;
-}
-
-  @media (max-width: 600px) {
-    .profile-container {
-      margin-top: -40px;
+  @media (max-width: 800px) {
+    .main-layout {
+      flex-direction: column;
+      margin-top: 1.5rem;
     }
 
-    .profile-photo-block img {
+    .sidebar {
+      width: 100%;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .sidebar-photo {
       width: 140px;
       height: 140px;
     }
+
+    .content {
+      margin-top: 1.5rem;
+    }
   }
 </style>
-<div class="header-wrapper">
 
+<div class="header-wrapper">
   <div class="cover-photo">
     <img src="ciudad_garcia.jpg" alt="Cover image">
   </div>
@@ -190,35 +210,38 @@ layout: default
 
       <nav class="site-nav">
         <a href="/">About me</a>
-          <a href="/vita">Vita</a>
+        <a href="/vita">Vita</a>
         <a href="/research">Research</a>
         <a href="/outreach">Outreach</a>
       </nav>
     </div>
   </div>
-
 </div>
 
+<div class="main-layout">
+  <!-- Colonne gauche -->
+  <aside class="sidebar">
+    <div>
+      <img src="photo_jeco.jpg" alt="Etienne de L'Estoile" class="sidebar-photo">
 
-<div class="profile-container">
-  <div class="profile-wrapper">
-    <div class="profile-photo-block">
-      <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
+      <div class="sidebar-name">Etienne de L'Estoile</div>
+
+      <div class="sidebar-title">
+        <strong>Climate &amp; Macrofinance Economist</strong><br>
+        Banque de France<br>
+        Paris 1 Panthéon-Sorbonne
+      </div>
+
+      <div class="sidebar-links">
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://www.banque-france.fr/fr/etienne-de-lestoile" target="_blank">Banque de France profile</a>
+        <a href="https://shs.cairn.info/publications-de-etienne-de-lestoile--699197?lang=fr" target="_blank">Cairn publications</a>
+      </div>
     </div>
-    <div class="profile-text">
-      <div class="profile-name">Etienne de L'Estoile</div>
-      <p>
-        <strong>Climate & Macrofinance Economist</strong><br>
-        Macroprudential Policy and Financial Stability Division, Banque de France<br>
-        PhD in Economics, Paris 1 Panthéon-Sorbonne
-      </p>
-    </div>
-  </div>
-</div>
+  </aside>
 
-
-
-<div class="content" markdown="1">
+  <!-- Colonne droite : About Me -->
+  <div class="content" markdown="1">
 
 # About Me
 
@@ -243,4 +266,5 @@ I develop empirical tools to quantify the exposure of firms, banks, and economic
 - <a href="https://www.banque-france.fr/fr/etienne-de-lestoile">Banque de France</a>  
 - <a href="https://shs.cairn.info/publications-de-etienne-de-lestoile--699197?lang=fr">Cairn</a>
 
+  </div>
 </div>
