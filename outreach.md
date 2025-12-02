@@ -136,15 +136,15 @@ header.site-header,
 
 ## Blogs & Informal Notes
 
-- **Banque de France Blog** — Selection of posts on climate risks, real estate, geospatial data, and financial stability  
+- **Banque de France Blog** — Posts on environmental risks, real estate, geospatial data, and financial stability  
   <a href="https://www.banque-france.fr/fr/etienne-de-lestoile" target="_blank">See blog articles</a>
 
 
 ---
 
-## Regards Croisés sur l'Économie (RCE)
+## Regards Croisés sur l'Économie (RCE), a research dissemination journal
 
-I had the privilege of serving as **President of the editorial committee of *Regards croisés sur l’économie*** (year–year).
+Served two years as **President of the editorial committee of *Regards croisés sur l’économie*** (2021–2023).
 
 During this period, I contributed to:
 
@@ -155,7 +155,7 @@ During this period, I contributed to:
 
 Selected contributions:
 
-- **“Measuring banks’ climate exposure: a data challenge”** (2024)  
+- **“Rémunérer le travail”** (2020)  
   <a href="https://shs.cairn.info/revue-regards-croises-sur-l-economie-2020-2?lang=fr" target="_blank">Read on Cairn</a>
 
 
