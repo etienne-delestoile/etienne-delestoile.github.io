@@ -118,7 +118,7 @@ layout: default
   .sidebar {
     width: 230px;
     flex-shrink: 0;
-    margin-top: -100px;  
+    margin-top: -85px;  
      position: relative;
     z-index: 20;  /* chevauchement de la cover */
   }
