@@ -54,14 +54,15 @@ layout: default
   }
 
   /* SECTION RESEARCH AVEC IMAGE DE FOND */
-  .research-section {
-    position: relative;
-    background-image: url('map_transparent.png'); /* <-- ton image */
-    background-size: cover;
-    background-position: center;
-    padding: 6rem 1.5rem 4rem 1.5rem;
-    margin-top: 3.5rem; /* pour dégager la top bar */
-  }
+.research-section {
+  position: relative;
+  background-image: url('/buildings_floods_EN.png');
+  background-size: cover;
+  background-position: center;
+  padding: 4.5rem 1.5rem 4rem 1.5rem; /* réduit un peu le padding haut */
+  margin-top: 0;                     /* enlève l'espace ! */
+}
+
 
   .research-overlay {
     position: absolute;
