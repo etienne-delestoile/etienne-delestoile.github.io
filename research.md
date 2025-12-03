@@ -149,7 +149,7 @@ header.site-header,
 
 
 <div class="research-image-block">
-  <img src="/map_transparent" alt="Paris flood probability map">
+  <img src="/map_transparent.png" alt="Paris flood probability map">
   <p class="caption">
     Exposure of buildings to flood scenarios in central Paris (Digital Twin model).
   </p>
