@@ -115,30 +115,39 @@ and geospatial Digital Twin architectures.
 
 ---
 
+## Publications 
+- **[Digital twins for bridging climate data gaps: from flood hazards to firms’ physical assets to banking risks](https://www.bis.org/ifc/publ/ifcb63_10.pdf){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier
+
 ## Working Papers
 
-- **Who Takes the Land?**  
-  Quantifying built-up land use and land-take by French economic sectors (2008–2021).
+- **[Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** (2024) – With [Mathilde Salin](https://www.banque-france.fr/fr/mathilde-salin){:target="_blank"}
+<p style="font-size:0.9rem;">
+We construct the first sector-level accounts of built-up land use and land take in France (2008–2021), combining geospatial and administrative microdata on firms. We find that economic sectors have highly unequal land footprints, revealing differentiated vulnerabilities to the “no net land take” policy.
+</p>
 
-- **Container or Content: Flood Hazards and Credit Risk**  
-  A multi-country Digital Twin linking physical hazard maps, real estate assets,  
-  and firm-balance-sheet data.
+
+- **[Container or Content: from flood hazards on firms’ physical assets to credit risks](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier  
+<p style="font-size:0.9rem;">
+  Development of a multi-country Digital Twin integrating physical hazard maps, firm-level financial statements, and real-estate exposures to quantify damages and solvency effects for firms and banks. 
+</p>
+
 
 ---
 
-## Research Projects
+## Selected Research Projects
 
-### Climate–Macro Digital Twin
-A scalable system combining hazard maps, exposure data, and financial networks  
-to assess climate-related solvency impacts.
+- **Commercial Property Price Indices for France**
+<p style="font-size:0.9rem;">
+Construction of the first public transaction-based commercial real estate indices for France using millions of DV3F property transactions and hedonic modelling. The project sheds light on price dynamics, non-prime segments, and financial stability implications.
+</p>
 
-### Commercial Real Estate Indices for France
-Hedonic transaction-based indices documenting CRE price trends and  
-non-prime market dynamics.
+- **REITs and natural catastrophes**
 
-### Land-Use & Land-Take Accounts
-Geospatial accounts for all French economic sectors, informing  
-“No Net Land Take” policies.
+- **Natural catastrophes and loan standards**
+
+
+
+
 
   </div>
 </div>
