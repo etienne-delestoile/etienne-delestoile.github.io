@@ -83,22 +83,20 @@ layout: default
 
 <div class="writing-content" markdown="1">
 
-# Pastiches
+## Pastiches du Covid pour la revue Zone Critique 
 
-# Pastiches du Covid pour la revue Zone Critique 
-
-- **La Peste et le rat des champs** — La Fontaine  
+- **La Peste et le rat des champs** - La Fontaine  
   <a href="https://zone-critique.com/critiques/la-peste-et-le-rat-des-champs/" target="_blank">Lire</a>
 
-- **Urgences sans paroles** — Verlaine 
+- **Urgences sans paroles** - Verlaine 
   <a href="https://zone-critique.com/critiques/urgences-sans-paroles/" target="_blank">Lire</a>
 
-- **Les Blouses blanches** — Aragon 
+- **Les Blouses blanches** - Aragon 
   <a href="https://zone-critique.com/critiques/les-blouses-blanches/" target="_blank">Lire</a>
 
-# Nouvelles 
+## Nouvelles 
 
-- **Souvenirs pour demain** — Texte lauréat du concours des Rencontres Économiques d’Aix  
+- **Souvenirs pour demain** - Texte lauréat du concours des Rencontres Économiques d’Aix  
   <a href="https://www.radiofrance.fr/franceculture/resister-aujourd-hui-pour-inventer-demain-les-reflexions-de-trois-jeunes-aux-rencontres-economiques-d-aix-2365343" target="_blank">Lire</a>
 
 </div>
