@@ -139,6 +139,7 @@ header.site-header,
       <a href="/vita">Vita</a>
       <a href="/research">Research</a>
       <a href="/outreach">Outreach</a>
+      <a href="/writing">Writing</a>
     </nav>
   </div>
 </div>
@@ -148,7 +149,7 @@ header.site-header,
 
 
 <div class="research-image-block">
-  <img src="/buildings_floods_EN.png" alt="Paris flood probability map">
+  <img src="/map_transparent" alt="Paris flood probability map">
   <p class="caption">
     Exposure of buildings to flood scenarios in central Paris (Digital Twin model).
   </p>
