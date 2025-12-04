@@ -247,6 +247,7 @@ layout: default
         <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
         <a href="https://www.banque-france.fr/fr/etienne-de-lestoile" target="_blank">Banque de France profile</a>
         <a href="https://shs.cairn.info/publications-de-etienne-de-lestoile--699197?lang=fr" target="_blank">Cairn publications</a>
+        etienne.delestoile@banque-france.fr
       </div>
     </div>
   </aside>
