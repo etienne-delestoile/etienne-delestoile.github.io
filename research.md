@@ -129,7 +129,7 @@ We construct the first sector-level accounts of built-up land use and land take 
 </p>
 
 
-- **[Container or Content: from flood hazards on firms’ physical assets to credit risks](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** (2025)
+- **[Container or Content: from flood hazards on firms’ physical assets to credit risks](https://www.banque-france.fr/en/publications-and-statistics/publications/container-or-content-flood-hazards-firms-physical-assets-credit-risks){:target="_blank"}** (2025)
 With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier  
 <p style="font-size:0.9rem;">
   Development of a multi-country Digital Twin integrating physical hazard maps, firm-level financial statements, and real-estate exposures to quantify damages and solvency effects for firms and banks. 
